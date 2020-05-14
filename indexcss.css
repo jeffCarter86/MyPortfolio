@@ -7,6 +7,7 @@
 header
 {
 background-size: cover;
+background-repeat: no-repeat;
 background-position: center;
   }
 
@@ -43,6 +44,8 @@ font-size: 15px;
 
 body
 {
+background-size: cover;
+background-position: center;
 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(computer.jpg);
 height: 100vh;
 
@@ -79,12 +82,42 @@ text-align: center;
 }  
 
 #aboutme
+
 {
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(travel.jpg);
+background-size: cover;
+background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(travel.jpg);
 }
+h5
+{
+color: white;
+font-size: 36px;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+text-align: center;
+}
+h6
+{
+color: white;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+font-size: 20px;
+text-align: center;
+}
+h4
+{
+color: white;
+font-size: 20px;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+text-align: center;
+}
+
+
+
+
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
+  float: right;
   width: 33.33%;
   padding: 5px;
 }
@@ -96,31 +129,12 @@ text-align: center;
   display: table;
 
 }
-h5
-{
-color:white;
-font-size:36px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align:center;
-}
-h6
-{
-color:white;
-font-size: 20px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align: center;
-}
-h4
-{
-color:white;
-font-size: 20px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align: center;
-}
 
 
 #Projects
 {
+background-size: cover;
+background-position: center;
   background-image:url(tools.jpg);
 }
 h5
@@ -174,6 +188,8 @@ text-align: center;
 
 #contact
 {
+background-size: cover;
+background-position: center;
 background-image: url(computer.jpg);
 }
 /* Style inputs, select elements and textareas */
