@@ -79,9 +79,37 @@ text-align: center;
 }  
 
 #aboutme
+
 {
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(travel.jpg);
 }
+h5
+{
+color: white;
+font-size: 36px;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+text-align: center;
+}
+h6
+{
+color: white;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+font-size: 20px;
+text-align: center;
+}
+h4
+{
+color: white;
+font-size: 20px;
+font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
+text-align: center;
+}
+
+
+
+
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -95,27 +123,6 @@ text-align: center;
   clear: both;
   display: table;
 
-}
-h5
-{
-color:white;
-font-size:36px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align:center;
-}
-h6
-{
-color:white;
-font-size: 20px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align: center;
-}
-h4
-{
-color:white;
-font-size: 20px;
-font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue';
-text-align: center;
 }
 
 
